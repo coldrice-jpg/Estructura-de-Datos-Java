@@ -25,34 +25,20 @@ Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
 2. Descarga e Instalación de IntelliJ IDEA
         1. Ir a la Página Web:
             - Abre tu navegador y ve al sitio web oficial de JetBrains para IntelliJ IDEA: jetbrains.com/idea/
-
         2. Seleccionar la Edición:
             - Habrán dos opciones: Ultimate y Community.
-
             - Haz clic en el botón de descarga de la Community Edition.
-
         3. Descargar el Instalador:
-
             - La descarga del archivo .exe comenzará automáticamente.
-
         4. Ejecutar el Instalador:
-
             - Una vez descargado, abre el archivo .exe para iniciar el asistente de instalación.
-
        5. Pantallas del Asistente de Instalación:
-
             - Welcome: Haga clic en "Next".
-
             - Destination Folder: Elija dónde quiere instalar el programa. La carpeta predeterminada (en C:\Program Files\JetBrains\...) suele ser la mejor opción. Haga clic en "Next".
-
             - Installation Options: Aquí se configuraran accesos directos. Es recomendable seleccionar:
-
                 - Create Desktop Shortcut: Marca "IntelliJ IDEA Community Edition" para crear un acceso directo en el escritorio.
-
                 - Update "Open Folder as Project": Marca esta opción. Te permitirá hacer clic derecho en una carpeta y abrirla como un proyecto.
-
                 - Create Associations: Marca .java, .groovy, etc. (Esto hará que IntelliJ sea el programa predeterminado para abrir esos archivos).
-
                 - Update PATH variable: Marca esta opción. Es importante para poder usar herramientas de línea de comandos.
 
 Haz clic en "Next".
