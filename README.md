@@ -1,15 +1,15 @@
 
 <h1 align="center"> Codigos de java de Estructura de Datos </h1>
 
-### Descripción del proyecto
+## Descripción del proyecto
 Este proyecto de Github es para entregar los codigos realizados en Java para la materia de Estructura de datos. A fin de mantener un registro del avance en las clases de la materia.
 
-### Requisitos previos
+## Requisitos previos
 Para poder usar este repositorio de manera correcta nos valemos de varias herramientas para el funcionamiento de los codigos. Los requisitos son los siguientes:
 1. La versión más reciente de JDK, puede funcionar con versiones superiores.
 2. Un entorno de desarrollo integrado, en mi caso uso IntelliJ IDEA.
 
-### Instrucciones de instalación
+## Instrucciones de instalación
 Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
 1. Instalar el JDK (Java Development Kit)
     IntelliJ IDEA es el entorno de desarrollo (IDE), pero no incluye el lenguaje Java en sí. Primero necesitas instalar el JDK.
@@ -23,23 +23,24 @@ Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
     - Ejecuta el instalador: Abre el archivo .exe y sigue las instrucciones. Es seguro aceptar todas las opciones predeterminadas. El instalador configurará automáticamente las variables de entorno necesarias.
 
 2. Descarga e Instalación de IntelliJ IDEA
+
         1. Ir a la Página Web:
-   ``
+
             - Abre tu navegador y ve al sitio web oficial de JetBrains para IntelliJ IDEA: jetbrains.com/idea/
-   ``
+   
         2. Seleccionar la Edición:
-   ``
+   
             - Habrán dos opciones: Ultimate y Community.
             - Haz clic en el botón de descarga de la Community Edition.
-   ``
+   
         3. Descargar el Instalador:
-   ``
+   
             - La descarga del archivo .exe comenzará automáticamente.
-   ``
+
         4. Ejecutar el Instalador:
-   ``
+   
             - Una vez descargado, abra el archivo .exe para iniciar el asistente de instalación.
-   ``
+   
        5. Pantallas del Asistente de Instalación:
             - Welcome: Haga clic en "Next".
             - Destination Folder: Elija dónde quiere instalar el programa. La carpeta predeterminada (en C:\Program Files\JetBrains\...) suele ser la mejor opción. Haga clic en "Next".
