@@ -12,12 +12,12 @@ Para poder usar este repositorio de manera correcta nos valemos de varias herram
 ### Instrucciones de instalación
 Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
 1. Instalar el JDK (Java Development Kit)
-  IntelliJ IDEA es el entorno de desarrollo (IDE), pero no incluye el lenguaje Java en sí. Primero necesitas instalar el JDK.
-  
-  - Ve al sitio web: Visita la página de descargas de Oracle JDK.
-  
-  - Selecciona la versión: Elige una versión LTS (Long-Term Support) como JDK 21 o JDK 17.
-  
-  - Descarga el instalador: Busca tu sistema operativo (Windows) y descarga el "x64 Installer" (archivo .exe).
-  
-  - Ejecuta el instalador: Abre el archivo .exe y sigue las instrucciones. Es seguro aceptar todas las opciones predeterminadas. El instalador configurará automáticamente las variables de entorno necesarias.
+    IntelliJ IDEA es el entorno de desarrollo (IDE), pero no incluye el lenguaje Java en sí. Primero necesitas instalar el JDK.
+    
+    - Ve al sitio web: Visita la página de descargas de Oracle JDK.
+    
+    - Selecciona la versión: Elige una versión LTS (Long-Term Support) como JDK 21 o JDK 17.
+    
+    - Descarga el instalador: Busca tu sistema operativo (Windows) y descarga el "x64 Installer" (archivo .exe).
+    
+    - Ejecuta el instalador: Abre el archivo .exe y sigue las instrucciones. Es seguro aceptar todas las opciones predeterminadas. El instalador configurará automáticamente las variables de entorno necesarias.
