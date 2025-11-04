@@ -24,38 +24,82 @@ Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
 
 2. Descarga e Instalación de IntelliJ IDEA
 
-        1. Ir a la Página Web:
+   1. Ir a la Página Web:
 
-            - Abre tu navegador y ve al sitio web oficial de JetBrains para IntelliJ IDEA: jetbrains.com/idea/
+      - Abre tu navegador y ve al sitio web oficial de JetBrains para IntelliJ IDEA: jetbrains.com/idea/
    
-        2. Seleccionar la Edición:
+    2. Seleccionar la Edición:
    
-            - Habrán dos opciones: Ultimate y Community.
-            - Haz clic en el botón de descarga de la Community Edition.
+       - Habrán dos opciones: Ultimate y Community.
    
-        3. Descargar el Instalador:
+        - Haz clic en el botón de descarga de la Community Edition.
    
-            - La descarga del archivo .exe comenzará automáticamente.
-
-        4. Ejecutar el Instalador:
+    3. Descargar el Instalador:
    
-            - Una vez descargado, abra el archivo .exe para iniciar el asistente de instalación.
+        - La descarga del archivo .exe comenzará automáticamente.
+
+    4. Ejecutar el Instalador:
    
-       5. Pantallas del Asistente de Instalación:
-            - Welcome: Haga clic en "Next".
-            - Destination Folder: Elija dónde quiere instalar el programa. La carpeta predeterminada (en C:\Program Files\JetBrains\...) suele ser la mejor opción. Haga clic en "Next".
-            - Installation Options: Aquí se configuraran accesos directos. Es recomendable seleccionar:
-                - Create Desktop Shortcut: Marca "IntelliJ IDEA Community Edition" para crear un acceso directo en el escritorio.
-                - Update "Open Folder as Project": Marca esta opción. Te permitirá hacer clic derecho en una carpeta y abrirla como un proyecto.
-                - Create Associations: Marca .java, .groovy, etc. (Esto hará que IntelliJ sea el programa predeterminado para abrir esos archivos).
-                - Update PATH variable: Marca esta opción. Es importante para poder usar herramientas de línea de comandos.
+        - Una vez descargado, abra el archivo .exe para iniciar el asistente de instalación.
+   
+    5. Pantallas del Asistente de Instalación:
+       - Welcome: Haga clic en "Next".
+   
+        - Destination Folder: Elija dónde quiere instalar el programa. La carpeta predeterminada (en C:\Program Files\JetBrains\...) suele ser la mejor opción. Haga clic en "Next".
+   
+        - Installation Options: Aquí se configuraran accesos directos. Es recomendable seleccionar:
+   
+          - Create Desktop Shortcut: Marca "IntelliJ IDEA Community Edition" para crear un acceso directo en el escritorio.
+   
+          - Update "Open Folder as Project": Marque esta opción. Le permitirá hacer clic derecho en una carpeta y abrirla como un proyecto.
+   
+          - Create Associations: Marque .java, .groovy, etc., esto hará que IntelliJ sea el programa predeterminado para abrir esos archivos.
+   
+          - Update PATH variable: Marque esta opción. Es importante para poder usar herramientas de línea de comandos.
 
-Haz clic en "Next".
+         - Haga clic en "Next".
 
-Start Menu Folder:
+    6. Start Menu Folder:
 
-Déjalo como está ("JetBrains") y haz clic en "Install".
+          - Déjelo como está ("JetBrains") y haga clic en "Install".
 
-Finalizar:
+    7. Finalizar:
 
-La instalación tomará unos minutos. Una vez completada, te puede pedir que reinicies el ordenador (especialmente por la actualización del PATH). Hazlo si te lo solicita.
+       - La instalación tomará unos minutos. Una vez completada, le puede pedir que reinicie el ordenador. Hagalo si se lo solicita.
+
+3. Crear un Proyecto y Seleccionar la Carpeta de Trabajo
+Abrir IntelliJ IDEA:
+
+Inicia el programa desde tu escritorio.
+
+Crear un Nuevo Proyecto:
+
+En la pantalla de bienvenida, haz clic en "New Project".
+
+Configurar el Proyecto:
+
+Name: Dale un nombre a tu proyecto (ej. "MiPrimerProyecto").
+
+Location: Esta es la "carpeta de trabajo" que mencionaste. Es la carpeta en tu ordenador donde se guardarán todos los archivos de este proyecto (ej. C:\Users\TuUsuario\IdeaProjects\MiPrimerProyecto). Puedes cambiarla si lo deseas.
+
+Language: Asegúrate de que "Java" esté seleccionado.
+
+Build System: Para un proyecto simple, puedes seleccionar "IntelliJ". (Si trabajas en algo más complejo, aquí es donde elegirías "Maven" o "Gradle").
+
+JDK: Aquí es donde vinculas el JDK que instalaste en el Paso 0. IntelliJ IDEA es muy bueno detectando automáticamente los JDKs instalados. Debería aparecer tu versión (ej. "Oracle OpenJDK 21") en la lista desplegable. Si no, haz clic en "Add JDK..." y busca la carpeta donde se instaló (usualmente en C:\Program Files\Java\jdk-21).
+
+Add sample code: Marca esta casilla. Es muy útil, ya que creará automáticamente un archivo Main.java con un "Hola Mundo" para que puedas probar que todo funciona.
+
+Crear:
+
+Haz clic en el botón "Create".
+
+Verificar la Configuración:
+
+El IDE se abrirá. Puede que tarde unos segundos en "indexar" los archivos.
+
+A la izquierda, verás la estructura de tu proyecto. Ve a src > Main.java.
+
+Haz clic en el botón verde de "Play" (ejecutar) junto a la línea public static void main(String[] args) o en la barra superior.
+
+En la parte inferior, en la pestaña "Run", deberías ver la salida: "Hello and welcome!".
