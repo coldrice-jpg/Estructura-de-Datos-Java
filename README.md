@@ -43,63 +43,64 @@ Para instalar las herramientas usadas se tienen que seguir los siguientes pasos:
         - Una vez descargado, abra el archivo .exe para iniciar el asistente de instalación.
    
     5. Pantallas del Asistente de Instalación:
-       - Welcome: Haga clic en "Next".
+        - Welcome: Haga clic en "Next".
    
         - Destination Folder: Elija dónde quiere instalar el programa. La carpeta predeterminada (en C:\Program Files\JetBrains\...) suele ser la mejor opción. Haga clic en "Next".
    
         - Installation Options: Aquí se configuraran accesos directos. Es recomendable seleccionar:
    
-          - Create Desktop Shortcut: Marca "IntelliJ IDEA Community Edition" para crear un acceso directo en el escritorio.
+            - Create Desktop Shortcut: Marca "IntelliJ IDEA Community Edition" para crear un acceso directo en el escritorio.
    
-          - Update "Open Folder as Project": Marque esta opción. Le permitirá hacer clic derecho en una carpeta y abrirla como un proyecto.
+            - Update "Open Folder as Project": Marque esta opción. Le permitirá hacer clic derecho en una carpeta y abrirla como un proyecto.
    
-          - Create Associations: Marque .java, .groovy, etc., esto hará que IntelliJ sea el programa predeterminado para abrir esos archivos.
+            - Create Associations: Marque .java, .groovy, etc., esto hará que IntelliJ sea el programa predeterminado para abrir esos archivos.
    
-          - Update PATH variable: Marque esta opción. Es importante para poder usar herramientas de línea de comandos.
+            - Update PATH variable: Marque esta opción. Es importante para poder usar herramientas de línea de comandos.
 
          - Haga clic en "Next".
 
-    6. Start Menu Folder:
+    7. Start Menu Folder:
 
-          - Déjelo como está ("JetBrains") y haga clic en "Install".
+        - Déjelo como está ("JetBrains") y haga clic en "Install".
 
-    7. Finalizar:
+    8. Finalizar:
 
-       - La instalación tomará unos minutos. Una vez completada, le puede pedir que reinicie el ordenador. Hagalo si se lo solicita.
+        - La instalación tomará unos minutos. Una vez completada, le puede pedir que reinicie el ordenador. Hagalo si se lo solicita.
 
 3. Crear un Proyecto y Seleccionar la Carpeta de Trabajo
-Abrir IntelliJ IDEA:
 
-Inicia el programa desde tu escritorio.
+    1. Abrir IntelliJ IDEA:
 
-Crear un Nuevo Proyecto:
+        - Inicie el programa desde tu escritorio.
 
-En la pantalla de bienvenida, haz clic en "New Project".
+    2. Crear un Nuevo Proyecto:
 
-Configurar el Proyecto:
+        - En la pantalla de bienvenida, haga clic en "New Project".
 
-Name: Dale un nombre a tu proyecto (ej. "MiPrimerProyecto").
+    3. Configurar el Proyecto:
 
-Location: Esta es la "carpeta de trabajo" que mencionaste. Es la carpeta en tu ordenador donde se guardarán todos los archivos de este proyecto (ej. C:\Users\TuUsuario\IdeaProjects\MiPrimerProyecto). Puedes cambiarla si lo deseas.
+        - Name: Dele un nombre a su proyecto (ej. "MiPrimerProyecto").
 
-Language: Asegúrate de que "Java" esté seleccionado.
+        - Location: Es la carpeta en su ordenador donde se guardarán todos los archivos de este proyecto (ej. C:\Users\TuUsuario\IdeaProjects\MiPrimerProyecto). Puede cambiarla si lo desea.
 
-Build System: Para un proyecto simple, puedes seleccionar "IntelliJ". (Si trabajas en algo más complejo, aquí es donde elegirías "Maven" o "Gradle").
+        - Language: Asegúrese de que "Java" esté seleccionado.
 
-JDK: Aquí es donde vinculas el JDK que instalaste en el Paso 0. IntelliJ IDEA es muy bueno detectando automáticamente los JDKs instalados. Debería aparecer tu versión (ej. "Oracle OpenJDK 21") en la lista desplegable. Si no, haz clic en "Add JDK..." y busca la carpeta donde se instaló (usualmente en C:\Program Files\Java\jdk-21).
+        - Build System: Para un proyecto simple, puede seleccionar "IntelliJ".
 
-Add sample code: Marca esta casilla. Es muy útil, ya que creará automáticamente un archivo Main.java con un "Hola Mundo" para que puedas probar que todo funciona.
+        - JDK: Aquí es donde vincula el JDK que instaló en el Paso 1. Debería aparecer su versión (ej. "Oracle OpenJDK 21") en la lista desplegable. Si no, haga clic en "Add JDK..." y busque la carpeta donde se instaló (usualmente en C:\Program Files\Java\jdk-21).
 
-Crear:
+        - Add sample code: Marque esta casilla.
 
-Haz clic en el botón "Create".
+    4. Crear:
 
-Verificar la Configuración:
+        - Haga clic en el botón "Create".
 
-El IDE se abrirá. Puede que tarde unos segundos en "indexar" los archivos.
+    5. Verificar la Configuración:
 
-A la izquierda, verás la estructura de tu proyecto. Ve a src > Main.java.
+        - El IDE se abrirá.
+          
+        - A la izquierda, verá la estructura de su proyecto. Vaya a src > Main.java.
 
-Haz clic en el botón verde de "Play" (ejecutar) junto a la línea public static void main(String[] args) o en la barra superior.
+        - Haga clic en el botón verde de "Play" junto a la línea public static void main(String[] args) o en la barra superior.
 
-En la parte inferior, en la pestaña "Run", deberías ver la salida: "Hello and welcome!".
+        - En la parte inferior, en la pestaña "Run", debería ver la salida: "Hello and welcome!".
