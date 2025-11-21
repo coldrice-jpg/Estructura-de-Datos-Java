@@ -1,6 +1,6 @@
-public class MergeSort {
+public class Merge_sort {
 
-    // Función principal de ordenamiento
+    // Funciï¿½n principal de ordenamiento
     public static int[] mergeSort(int[] lista) {
         if (lista.length <= 1) {
             return lista; // Caso base
@@ -27,7 +27,7 @@ public class MergeSort {
         return mezclar(izquierda, derecha);
     }
 
-    // Función para mezclar dos arreglos ordenados
+    // Funciï¿½n para mezclar dos arreglos ordenados
     public static int[] mezclar(int[] izquierda, int[] derecha) {
         int[] resultado = new int[izquierda.length + derecha.length];
         int i = 0, j = 0, k = 0;
@@ -52,7 +52,7 @@ public class MergeSort {
         return resultado;
     }
 
-    // Método principal (main)
+    // Mï¿½todo principal (main)
     public static void main(String[] args) {
         int[] numeros = {38, 27, 43, 3, 9, 82, 10};
         int[] ordenados = mergeSort(numeros);
