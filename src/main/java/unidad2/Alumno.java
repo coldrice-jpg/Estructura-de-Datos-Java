@@ -19,12 +19,12 @@ public class Alumno {
 
     }
 
-    public static class Alumno {
+    public static class alumno {
 
         private String matricula;
         private String nombre;
 
-        public Alumno(){
+        public alumno(){
             System.out.println("Alumno creado");
         }
         public void incripcionCurso(){

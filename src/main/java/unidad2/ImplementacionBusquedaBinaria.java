@@ -1,7 +1,6 @@
 package unidad2;
 
-import com.mx.curso.unidad2.busqueda.binaria.BusquedaBinaria;
-import com.mx.curso.unidad2.ordenamiento.burbuja.practica1.Burbuja;
+import unidad2.busqueda.Binaria;
 
 public class ImplementacionBusquedaBinaria {
 
@@ -22,11 +21,11 @@ public class ImplementacionBusquedaBinaria {
 
         long startTime = System.nanoTime();
 
-        Burbuja.bubbleSort(numerosFijos);
+        bubbleSort.bubbleSort(numerosFijos);
 
         int elementoABuscar = 999;
 
-        int indice = BusquedaBinaria.busquedaBinaria(numerosFijos, elementoABuscar);
+        int indice = Binaria.busquedaBinaria(numerosFijos, elementoABuscar);
 
         if(indice == -1){
             System.out.println("Elemento no encontrado");
