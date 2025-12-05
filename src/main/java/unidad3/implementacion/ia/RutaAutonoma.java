@@ -1,7 +1,6 @@
-package unidad3.doble.implementacionIA;
+package unidad3.implementacion.ia;
 
 import java.util.LinkedList;
-import java.util.spi.LocaleNameProvider;
 
 public class RutaAutonoma {
 
