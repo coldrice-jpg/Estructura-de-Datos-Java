@@ -69,7 +69,7 @@ public class ArbolBinarioBusquedaPreorden {
         ArbolBinarioBusquedaPreorden arbol = new ArbolBinarioBusquedaPreorden();
 
         // Valores de entrada desordenados:
-        int[] datosDesordenados = {1, 5, 17, 21, 7, 4, 99, 8, 6};
+        int[] datosDesordenados = {70, 40, 85, 20, 60, 75, 95, 12, 55, 80};
 
 
         // El árbol se construye de forma auto-organizada (BST)

@@ -93,7 +93,7 @@ public class ArbolBinarioBFS {
     public static void main(String[] args) {
         ArbolBinarioBFS arbol = new ArbolBinarioBFS();
 
-        int[] datos = {1, 5, 7, 8, 90, 2, 100};
+        int[] datos = {70, 40, 85, 20, 60, 75, 95, 12, 55, 80};
         System.out.print("Numeros a insertar en orden: ");
         for (int dato : datos) {
             System.out.print(dato + " ");
